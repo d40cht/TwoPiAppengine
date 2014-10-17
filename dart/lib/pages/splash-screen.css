@@ -1,0 +1,29 @@
+div.splashbox {
+    position: absolute;
+	padding: 15px;
+	border-radius: 15px;
+	top: 10%;
+	bottom: 25%;
+	left: 15%;
+	right: 15%;
+	background-color: white;
+	opacity: 0.8;
+}
+
+div.letsgo {
+  position: absolute;
+  top: 80%;
+  bottom: 15%;
+  width: 100%;
+  background-color: yellow;
+  text-align: center;
+}
+
+div.photocredit {
+  position: absolute;
+  top:95%;
+  bottom: 100%;
+  width: 100%;
+  background-color: lightgreen;
+  text-align: center;
+}
