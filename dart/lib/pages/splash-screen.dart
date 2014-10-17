@@ -4,7 +4,7 @@ part of twopi_controller;
     selector: '[splash-screen]',
     templateUrl: 'packages/twopi/pages/splash-screen.html',
     cssUrl: 'packages/twopi/pages/splash-screen.css',
-    publishAs: 'cmp')
+    publishAs: 'ctrl')
 class SplashScreenComponent {
   String foo = "Hello";
 }

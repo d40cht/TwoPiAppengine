@@ -16,13 +16,8 @@
     Images used on this page, copyright blah
   </div>
   <div class="images">
-    Some images here.<br>
-    Some images here.<br>
-    Some images here.<br>
-    Some images here.<br>
-    Some images here.<br>
-    Some images here.<br>
-    Some images here.<br>
-    
+    <div ng-repeat="foo in ctrl.foos">
+      {{foo}}
+    </div>
   </div>
 </div>
