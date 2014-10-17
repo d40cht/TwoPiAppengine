@@ -1,0 +1,6 @@
+name: twopi
+description: A Dart implementation of the TwoPI circular routing app
+dependencies:
+    angular: 0.13.0
+transformers:
+- angular

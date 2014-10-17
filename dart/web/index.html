@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample app</title>
+    
+    <!--<script src="less.js"></script>-->
+
+    <!-- include the web_components polyfills with support for Dart. -->
+    <script src="packages/web_components/platform.js"></script>
+    <script src="packages/web_components/dart_support.js"></script>
+    
+    <!-- Bootstrap dart -->
+    <script type="application/dart" src="main.dart"></script>
+    <script type="text/javascript" src="packages/browser/dart.js"></script>
+    
+    <!--<link rel="stylesheet/less" type="text/css" href="main.less"/>-->
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        A header
+      </div>
+      
+      
+      <div class="content">
+        <ng-view></ng-view>
+      </div>
+    </div>
+    
+    
+  </body>
+</html>

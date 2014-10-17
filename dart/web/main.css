@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+}
+
+body {
+	box-sizing: border-box;
+  	background-color: #F8F8C8;
+  	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  	font-size: 100%;
+  	font-weight: normal;
+  	margin: 0px;
+  	width: 100%;
+  	height: 100%;
+}
+
+div.container {
+	display:flex;
+	flex-direction:column;
+	width: 100%;
+	height: 100%;
+}
+
+div.header {
+	width: 100%;
+	height: 60px;
+	background-color: red;
+}
+
+div.content {
+	width: 100%;
+	height: 100%;
+	flex: 1;
+	background-color: blue;
+	position: relative;
+}
+
+splash-screen /deep/ div.splashbox {
+	padding: 15px;
+	border-radius: 15px;
+	top: 15%;
+	bottom: 15%;
+	left: 15%;
+	right: 15%;
+	position: absolute;
+	background-color: white;
+	opacity: 0.8;
+}
+div[route-edit-controller] {
+  height: 100%;
+  width: 100%;
+}
+
