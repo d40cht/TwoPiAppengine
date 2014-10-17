@@ -14,7 +14,7 @@ void twoPiRouteInitializer(Router router, RouteViewFactory views) {
         }, replace:true)),
     'splash': ngRoute(
         path: '/splash',
-        viewHtml: '<splash-screen></splash-screen>'),
+        viewHtml: '<div splash-screen></div>'),
     'routeEdit': ngRoute(
         path: '/routeEdit',
         viewHtml: '<div route-edit-controller></div>'),
@@ -28,6 +28,7 @@ class TwoPiDartModule extends Module {
   TwoPiDartModule() {
     bind(SplashScreenComponent);
     bind(RouteEditController);
+    bind(RouteSummaryController);
     
     bind(RouteInitializerFn, toValue : twoPiRouteInitializer);
     bind(NgRoutingUsePushState,  toValue: new NgRoutingUsePushState.value(false));

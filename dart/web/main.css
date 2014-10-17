@@ -34,19 +34,3 @@ div.content {
 	position: relative;
 }
 
-splash-screen /deep/ div.splashbox {
-	padding: 15px;
-	border-radius: 15px;
-	top: 15%;
-	bottom: 15%;
-	left: 15%;
-	right: 15%;
-	position: absolute;
-	background-color: white;
-	opacity: 0.8;
-}
-div[route-edit-controller] {
-  height: 100%;
-  width: 100%;
-}
-
