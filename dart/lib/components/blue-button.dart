@@ -6,4 +6,6 @@ part of twopi_components;
     cssUrl: 'packages/twopi/components/blue-button.css',
     publishAs: 'cmp')
 class BlueButton {
+  @NgAttr('href')
+  String href = 'zop';
 }

@@ -30,16 +30,25 @@ div.splash-box {
 	font-size: 1.3em;
 }
 
+div.splash-box li {
+  line-height: 140%;
+}
+
 div.splash-box h1 {
   margin-top: 0.2em;
+  margin-bottom: 0.2em;
   font-size: 3em;
 }
 
 div.lets-go {
   position: absolute;
-  top: 86%;
+  top: 85%;
   width: 100%;
   text-align: center;
+}
+
+div.lets-go blue-button /deep/ a {
+  font-size: 1.3em;
 }
 
 div.photo-credit-box {
@@ -53,7 +62,7 @@ div.photo-credit-box {
 div.photo-credit {
   display: inline-block;
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.7;
   padding: 3px;
   border-radius: 3px;
   margin 0 auto;
