@@ -1,6 +1,5 @@
 library twopi_controller;
 
-
 import 'package:angular/angular.dart';
 
 part 'pages/splash-screen.dart';

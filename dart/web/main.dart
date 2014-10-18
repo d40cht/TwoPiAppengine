@@ -3,7 +3,8 @@ library twopi;
 import 'package:angular/angular.dart';
 import 'package:angular/application_factory.dart';
 
-import 'package:twopi/lib.dart';
+import 'package:twopi/page-lib.dart';
+import 'package:twopi/component-lib.dart';
 
 
 void twoPiRouteInitializer(Router router, RouteViewFactory views) {
@@ -29,6 +30,8 @@ class TwoPiDartModule extends Module {
     bind(SplashScreenComponent);
     bind(RouteEditController);
     bind(RouteSummaryController);
+    
+    bind(BlueButton);
     
     bind(RouteInitializerFn, toValue : twoPiRouteInitializer);
     bind(NgRoutingUsePushState,  toValue: new NgRoutingUsePushState.value(false));
