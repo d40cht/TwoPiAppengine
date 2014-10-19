@@ -1,6 +1,17 @@
 <div class="container">
   <div class="leftbar">
-    Left bar
+    <h1>Actions</h1>
+    <label>Routing preference</label>
+    <select class="formstyle">
+      <option value="walking">Walking</option>
+      <option value="cyclingflat">Cycling (flat)</option>
+      <option value="cyclinghilly">Cycling (hilly)</option>
+    </select>
+    
+    <label>Distance (km)</label>
+    <input class="formstyle" type="number" value="25" min="10" max="150" required></input>
+    <br><br>
+    <blue-button>Go!</blue-button>
   </div>
   <div class="content">
     <div class="map">

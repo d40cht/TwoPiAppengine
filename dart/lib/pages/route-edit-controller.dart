@@ -5,5 +5,9 @@ part of twopi_controller;
     templateUrl: 'packages/twopi/pages/route-edit-controller.html',
     cssUrl: 'packages/twopi/pages/route-edit-controller.css',
     publishAs: 'ctrl')
-class RouteEditController {
+class RouteEditController implements ShadowRootAware {
+  
+  void onShadowRoot(ShadowRoot shadowRoot) {
+    //context.callMethod("drawChart", []);
+  }
 }

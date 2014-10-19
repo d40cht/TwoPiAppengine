@@ -7,6 +7,7 @@
     <title>Sample app</title>
     
     <!--<script src="less.js"></script>-->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 
     <!-- include the web_components polyfills with support for Dart. -->
     <script src="packages/web_components/platform.js"></script>
@@ -22,7 +23,12 @@
   <body class="ng-cloak">
     <div class="container">
       <div class="header">
-        A header
+        <div class="title">
+          <h1><a href="/">TwoPi.co.uk</a></h1>
+        </div>
+        <div class="menu">
+          <a href="/about">About</a> | <a href="/signin">Sign in</a>
+        </div>
       </div>
       
       
@@ -30,7 +36,5 @@
         <ng-view></ng-view>
       </div>
     </div>
-    
-    
   </body>
 </html>
