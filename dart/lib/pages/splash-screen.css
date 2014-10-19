@@ -28,6 +28,7 @@ div.splash-box {
 	opacity: 0.7;
 	font-weight: 200;
 	font-size: 1.3em;
+    overflow: hidden;
 }
 
 div.splash-box li {
