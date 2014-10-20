@@ -1,0 +1,12 @@
+div.container {
+  padding: 1em;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 0;
+  margin-bottom: 0.6em;
+}

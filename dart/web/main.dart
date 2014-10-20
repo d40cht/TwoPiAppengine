@@ -22,6 +22,9 @@ void twoPiRouteInitializer(Router router, RouteViewFactory views) {
     'routeSummary': ngRoute(
         path: '/routeSummary',
         viewHtml: '<div route-summary-controller></div>'),
+    'about': ngRoute(
+        path: '/about',
+        viewHtml: '<div about-controller></div>'),
   });
 }
 
@@ -30,6 +33,7 @@ class TwoPiDartModule extends Module {
     bind(SplashScreenComponent);
     bind(RouteEditController);
     bind(RouteSummaryController);
+    bind(AboutController);
     
     bind(BlueButton);
     bind(SummaryData);
