@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample app</title>
     
-    <!--<script src="less.js"></script>-->
-    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <!--<script src="js/less.js"></script>-->
+
+    <script src="js/highcharts-standalone-framework.js"></script>
+    <script src="js/highcharts.js"></script>
+    <script src="js/leaflet.js"></script>
 
     <!-- include the web_components polyfills with support for Dart. -->
     <script src="packages/web_components/platform.js"></script>
@@ -18,7 +21,8 @@
     <script type="text/javascript" src="packages/browser/dart.js"></script>
     
     <!--<link rel="stylesheet/less" type="text/css" href="main.less"/>-->
-    <link rel="stylesheet" type="text/css" href="main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css"/>
   </head>
   <body class="ng-cloak">
     <div class="container">
@@ -30,8 +34,6 @@
           <a href="/about">About</a> | <a href="/signin">Sign in</a>
         </div>
       </div>
-      
-      
       <div class="content">
         <ng-view></ng-view>
       </div>

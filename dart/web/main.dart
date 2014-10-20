@@ -32,6 +32,8 @@ class TwoPiDartModule extends Module {
     bind(RouteSummaryController);
     
     bind(BlueButton);
+    bind(ElevationChart);
+    bind(LeafletMap);
     
     bind(RouteInitializerFn, toValue : twoPiRouteInitializer);
     bind(NgRoutingUsePushState,  toValue: new NgRoutingUsePushState.value(false));
