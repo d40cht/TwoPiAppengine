@@ -32,6 +32,7 @@ class TwoPiDartModule extends Module {
     bind(RouteSummaryController);
     
     bind(BlueButton);
+    bind(SummaryData);
     bind(ElevationChart);
     bind(LeafletMap);
     

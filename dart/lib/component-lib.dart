@@ -5,5 +5,6 @@ import 'dart:js';
 import 'dart:html';
 
 part 'components/blue-button.dart';
+part 'components/summary-data.dart';
 part 'components/elevation-chart.dart';
 part 'components/leaflet-map.dart';

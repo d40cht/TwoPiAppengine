@@ -10,12 +10,12 @@ div.top {
 div.summary {
   height: 100%;
   width: 50%;
+  padding: 10px;
 }
 
 div.stats {
   width: 100%;
   height: 50%;
-  background-color: lightblue;
 }
 
 div.elevation {
@@ -26,7 +26,6 @@ div.elevation {
 div.map {
   height: 100%;
   width: 50%;
-  background-color: orange;
 }
 
 div.imagebox {

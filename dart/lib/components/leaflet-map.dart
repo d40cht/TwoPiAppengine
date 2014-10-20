@@ -7,8 +7,18 @@ part of twopi_components;
     publishAs: 'cmp')
 class LeafletMap extends ShadowRootAware {
   void onShadowRoot(ShadowRoot shadowRoot) {
+    var leaflet = context['L'];
+    var tileLayer = leaflet.callMethod('tileLayer', [
+      'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      {
+        'attribution': 'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
+        'maxZoom': 18
+      }
+    ]);
+    
     var mapDiv = shadowRoot.querySelector('#mapDiv');
-    var map = context['L'].callMethod('map', [mapDiv]);
+    var map = leaflet.callMethod('map', [mapDiv]);
     map.callMethod('setView', new JsObject.jsify([[51.505, -0.09], 13]));
+    tileLayer.callMethod('addTo', [map]);
   }
 }
