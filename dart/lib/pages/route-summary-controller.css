@@ -1,7 +1,7 @@
 div.top {
   position: absolute;
   top: 0%;
-  bottom: 20%;
+  bottom: 25%;
   display:flex;
   flex-direction: row;
   width: 100%;
@@ -31,13 +31,18 @@ div.map {
 
 div.imagebox {
   position:absolute;
-  top: 80%;
+  top: 75%;
   width: 100%;
+}
+
+div.button-box {
+  text-align: center;
+  padding: 0.5em;
 }
 
 div.disclaimer {
   text-align: center;
-  line-height: 170%;
+  padding-bottom: 0.5em;
 }
 
 div.images {
