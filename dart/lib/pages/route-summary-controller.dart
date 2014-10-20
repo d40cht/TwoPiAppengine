@@ -15,13 +15,13 @@ class RouteSummaryController {
   Route route;
   
   RouteSummaryController(this._http) {
-    _loadData();
+    //_loadData();
   }
   
-  void _loadData() {
+  /*void _loadData() {
     _http.get('data/route1.json')
       .then((HttpResponse response) {
         route = response.data.map((d) => new Route.fromJson(d)).toList();
     });
-  }
+  }*/
 }

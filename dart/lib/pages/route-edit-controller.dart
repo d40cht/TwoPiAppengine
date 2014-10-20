@@ -8,6 +8,5 @@ part of twopi_controller;
 class RouteEditController implements ShadowRootAware {
   
   void onShadowRoot(ShadowRoot shadowRoot) {
-    //context.callMethod("drawChart", []);
   }
 }

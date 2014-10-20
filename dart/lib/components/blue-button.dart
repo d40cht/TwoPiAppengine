@@ -7,5 +7,5 @@ part of twopi_components;
     publishAs: 'cmp')
 class BlueButton {
   @NgAttr('href')
-  String href = 'zop';
+  String href = '';
 }
